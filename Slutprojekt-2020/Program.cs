@@ -15,6 +15,7 @@ namespace Slutprojekt_2020
 
         public int age;
 
+
         public String hobby;
 
         // En  kontruktor är en metod som körs när en klass instansieras tex kör (dater)
@@ -56,6 +57,7 @@ namespace Slutprojekt_2020
             // Console.WriteLine("jag lärde wood att använda git, nu testar jag bara om allt fungerar");
 
             Dater d = new Dater(Gender.neutral, "Sasha", 22, "Tumblr scrolling and cat videos");
+     
 
             d.Print();
 
